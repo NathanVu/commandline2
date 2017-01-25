@@ -1,0 +1,75 @@
+body {
+  font-family: monospace;
+  background: #999;
+}
+
+.main {
+  content: " ";
+  display: table;
+  clear: both;
+  width: 900px;
+  background: white;
+}
+
+.left {
+  width: 410px;
+  padding: 20px;
+  float: left;
+}
+
+.right {
+  width: 410px;
+  padding: 20px;
+  float: right;
+}
+
+p:first-letter {
+  color: red;
+  font-style: italic;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  float:left;
+  clear:both;
+  text-align: center;
+  background: #ccc;
+  padding:20px 0;
+}
+
+.bg {
+  background-image:url("modern.jpg");
+  height: 170px;
+}
+
+h1.page_title {
+  padding: 20px;
+}
+
+img.aboutimage1 {
+  height: 250px;
+  margin-right: 20px;
+  margin-left: 20px
+}
+
+img.aboutimage2 {
+  height: 250px;
+}
+
+.accomplishments {
+  width: 95%;
+  float: left;
+  clear: both;
+  padding: 20px;
+  border: 3px solid black;
+}
+/*
+table {
+  border: 2px solid black;
+}*/
+
+.position-title {
+  text-align: center;
+  font-weight: bold;
+}
